@@ -9,7 +9,7 @@ ChessForUs este un site educational si informativ dedicat pasionatilor de sah. D
     * CSS3 - pentru stilizare;
     * JavaScript - pentru a adauga functionalitate paginii (intr-o cantitate mai mica);
 	
-## Cum sa accesati pagina web?
+## Cum sa accesati site-ul web?
 
 Pur si simplu, faceti dublu-click pe fisierul "Proiect.html", iar browserul vostru implicit o sa vi-l deschida. Daca nu functioneaza in modul acesta, faceti click-dreapta pe acelasi fisier, si apasati comanda "Open with", iar din acel meniu, alegeti-va un browser la alegere.
 
