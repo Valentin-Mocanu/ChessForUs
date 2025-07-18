@@ -1,0 +1,222 @@
+.titlu_pag_prin { /* titlu pagina principala */
+   font-family: Showcard Gothic;
+   font-size: 50px;
+   text-align: center;}
+   
+.titlu_pag_sec { /* titlu pagini secundare */
+   font-family: Showcard Gothic;
+   font-size: 40px;
+   text-align: center;}
+   
+.subtitlu1 {
+   font-family: Algerian; 
+   font-size: 25px;
+   text-align: center;}
+   
+.subtitlu2 {
+   font-family: Bookman Old Style;
+   text-indent: 60px;
+   color: darkgreen; 
+   font-size: 20px;}
+   
+h2, h3 { /* astea doua sunt special pentru pagina "Despre Sah" (link1) ca sa ma ajute la link-uri interne */
+   text-indent: 35px;
+   font-size: 24px;}
+   
+.paragraf {text-indent: 35px;}
+
+.fundal1 { /* fundalul principal, cel din spate */
+   margin: 0;
+   padding: 0;
+   background-image: url('Imagini/Imagine5.jpg');
+   background-size: contain;
+   background-attachment: fixed;}
+   
+.fundal2 { /* fundalul secundar, cel din fata */
+   max-width: 1000px;
+   margin: 12px auto;
+   padding: 20px;
+   background-color: rgba(128, 128, 128, 0.95);
+   border: 4px solid rgb(139, 69, 19); /* marginea fundal2 */
+   border-radius: 8px; /* colturi rotunjite */
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);} /* umbra fundal2 */
+
+.tabel_pag_prin { /* tabel pagina principala */
+   width: 100%;
+   height: 50px;
+   border-collapse: collapse;
+   background-color:#f2f2f2;}
+   
+.th_pag_prin { /* th pentru tabel pagina principala (celula aia mare si lunga) */
+   border: 2px solid black;
+   border-collapse: collapse;
+   border-color: red;
+   padding: 3px;
+   text-align: center;
+   background-image: url('Imagini/Imagine18.jpg');}
+.th_pag_prin:hover {
+   background-color: #d1e0e0;}
+   
+.td_pag_prin { /* td pentru tabel pagina principala */
+   border: 2px solid black;
+   border-collapse: collapse;
+   border-color: blue;
+   padding: 3px;
+   text-align: center;}
+.td_pag_prin:hover {
+   background-color: #d1e0e0;}
+   
+.td_pag_prin_img { /* casuta cu imagine la tabelul din pagina principala */
+   border: 2px solid black;
+   border-collapse: collapse;
+   border-color: gold;
+   padding: 3px;
+   text-align: center;
+   background-image: url('Imagini/Imagine17.png');
+   background-size: cover;}
+
+.img_pag_prin { /*imagine pagina principala */
+   border: 2px solid black;
+   border-radius: 8px;
+   width: 500px;
+   height: 300px;}
+   
+.img_link1 {
+   border: 2px solid black;
+   border-radius: 8px;
+   width: 200px;
+   height: 250px;}
+.img_link1:hover {
+   transform: scale(1.1); /* mărește imaginea cu 10% atunci când mouse-ul este deasupra ei */
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);} /* efectul de evidentiere a imaginii cand mouse-ul este deasupra ei */
+   
+.img_link4 {
+   border: 2px solid black;
+   border-radius: 8px;
+   width: 200px;
+   height: 250px;}
+   
+.img_link5 {
+   margin-left: 54px;
+   border: 2px solid black;
+   border-radius: 8px;
+   width: 100px;
+   height: 80px;}
+   
+.img_log_reg {
+   border: 2px solid black;
+   border-radius: 8px;
+   width: 25px;
+   height: 25px;
+   position: fixed;}
+
+.div_ajutator_link1 { /* un mic ajutator pentru tag-ul div */
+   text-indent: 35px;
+   text-decoration: underline;
+   font-style: italic;
+   font-family: Segoe UI;} 
+
+.tabel_buton_inapoi { /* butonul care te duce la pagina principala */
+   width: 30%;
+   height: 50px;
+   border-collapse: collapse;
+   background-color: #ffffff;}
+   
+.th_buton_inapoi { /* th pentru butonul care te duce la pagina principala */
+   border: 2px solid black;
+   border-collapse: collapse;
+   padding: 3px;
+   vertical-align: middle;
+   text-align: center;}
+.th_buton_inapoi:hover {
+   background-color: #d1e0e0;}
+   
+.link_pag_sus_centru {text-align: center;} /*link-ul care te trimite la inceputul paginii */
+.link_pag_sus_stanga {text-align: left;} /*link-ul care te trimite la inceputul paginii */
+.link_pag_sus_dreapta {text-align: right;} /*link-ul care te trimite la inceputul paginii */
+
+.link { /* stilizare pentru link-uri */
+   color: blue;
+   text-decoration: none;}
+.link:hover {
+   color: red;
+   text-decoration: underline;}
+.link:visited {color: purple;}
+.link:hover:visited {
+   color: red;
+   text-decoration: underline;}
+.link:active {color: orange;}
+.link:active:hover {color: orange;}
+
+blockquote {font-style: italic;}
+
+.form_log_reg {max-width: 600px; /* formular pagina login/register */
+   margin: 0 auto;
+   padding: 20px;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   background-color: #f9f9f9;}
+   
+.label_log_reg {display: block; /* label pagina login/register */
+   margin-bottom: 8px;
+   font-weight: bold;}
+   
+.input_log_reg, .select_log_reg {width: 100%; /* input text si select pentru pagina login/register */
+   padding: 8px;
+   margin-bottom: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;}
+   
+.button_log_reg {background-color: #4CAF50; /*buton trimitere formular pagina login/register */
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;}  
+.button_log_reg:hover {  background-color: #45a049;}
+
+.body_log_reg { /* fundal pagina login/register */
+   margin: 0;
+   height: 100vh;
+   background-image: url("Imagini/Imagine6.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;}
+   
+.radio_label { /* stilizarea butoanelor radio folosind selector clasa */
+   display: inline-flex;
+   align-items: center;
+   margin-right: 15px;}
+   
+#termeni_si_conditii { /* stilizarea butoanelor radio folosind selector id */
+   display: inline-flex;
+   align-items: center;
+   margin-right: 15px;}
+
+.lista1_link2 { /* formatarea listei cu o imagine plus extra-indentare la fiecare element din lista */
+   list-style-image: url('Imagini/Imagine13.png');
+   padding-left: 20px;}
+
+.lista2_link2 {
+   list-style-image: url('Imagini/Imagine14.jpg');
+   padding-left: 20px;}
+
+.lista3_link2 {
+   list-style-image: url('Imagini/Imagine15.jpg');
+   padding-left: 20px;}
+
+.lista4_link2 {
+   list-style-image: url('Imagini/Imagine16.jpg');
+   padding-left: 20px;}
+
+.buton_reset {
+   background-image: url('Imagini/Imagine17.png');
+   background-size: cover;
+   width: 100px;
+   height: 50px;}
+   
+.text_link5 {
+   font-family: Arial Rounded MT Bold;
+   margin-left: 25px;
+   font-size: 20px;}
+   
