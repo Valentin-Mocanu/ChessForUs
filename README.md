@@ -14,7 +14,7 @@ ChessForUs este un site educational si informativ dedicat pasionatilor de sah. D
 Pur si simplu, faceti dublu-click pe fisierul "Proiect.html", iar browserul vostru implicit o sa vi-l deschida. Daca nu functioneaza in modul acesta, faceti click-dreapta pe acelasi fisier, si apasati comanda "Open with", iar din acel meniu, alegeti-va un browser la alegere.
 
 
-## Ce am invatat din realizarea acestui proiect:
+## Ce am invatat din realizarea acestui proiect?
 
 - Crearea de pagini HTML si intelegerea modului lor de functionare;
 - Organizarea corecta a fisierelor intr-un proiect web;
