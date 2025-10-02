@@ -1,5 +1,0 @@
-Rocada Mica
-
-Pentru rocada mică regele trebuie să mute pe câmpul marcat cu x, iar turnul pe câmpul alb; rocada se poate face doar în anumite condiți.
-
-<!-- Mapare imagine1 -->
