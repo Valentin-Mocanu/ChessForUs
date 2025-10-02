@@ -1,0 +1,5 @@
+Rocada Mare
+
+Pentru rocada mare regele trebuie să mute pe câmpul marcat cu x, iar turnul pe câmpul alb; rocada se poate face doar în anumite condiții.
+
+<!-- Mapare imagine2 -->

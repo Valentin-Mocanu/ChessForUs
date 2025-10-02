@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ChessForUs.ro - Logare</title>
+   <link rel="stylesheet" type="text/css" href="../stiluri.css" />
+</head>
+<body class="body_log_reg">
+   <!-- fereastra de alerta -->
+   <script type="text/javascript">
+      alert('Niciodata sa nu iti impartasesti datele personale cu oricine!!!');
+   </script>
+   <h1 align="center">Logare</h1>
+   
+   <p align="left"> <img class="img_log_reg" src="../imagini/imagine2.jpg"> </p> 
+   
+   <form class="form_log_reg" action="/submit" method="POST">
+	  <label class="label_log_reg" for="email">Email:</label>
+	  <input class="input_log_reg" type="email" id="email" name="email" required>
+	  <br> <br>
+	  
+	  <label class="label_log_reg" for="password">Parola:</label>
+	  <input class="input_log_reg" type="password" id="password" name="password" required>
+	  <br> <br>
+	  
+	  <label class="radio_label"> </label>
+	     <input type="radio" name="b" />Tine-ma minte!
+	  <br> <br> <br>
+	  
+	  <button class="button_log_reg" type="submit">Conecteaza-te</button>
+   </form>
+   
+   <p align="center">Daca nu ai un cont deja creat, poti apasa <a class="link" href="inregistrare.html">aici</a> ca sa iti creezi unul nou.</p>
+</body>
+</html>

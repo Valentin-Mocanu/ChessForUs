@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ChessForUs.ro - Despre Mine</title>
+   <style>
+    .text_animat {
+        animation: miscareText 3s infinite;}
+    @keyframes miscareText {
+        0% { color: red; }
+        50% { color: green; }
+        100% { color: blue; }
+    }
+	.imagine_animata {
+        width: 200px;
+        height: 200px;
+        animation: miscareImagine 5s infinite;}
+    @keyframes miscareImagine {
+        0% { transform: translateX(50px); }
+        50% { transform: translateX(700px); }
+        100% { transform: translateX(50px); }
+    }
+   </style>
+   <link rel="stylesheet" type="text/css" href="../stiluri.css" />
+</head>
+<body class="fundal1">
+   <span id="sectiunea1"> </span>
+   <div class="fundal2">
+   <table class="tabel_buton_inapoi">
+      <thead>
+	     <tr>
+		    <th class="th_buton_inapoi"> <img src="../imagini/imagine4.jpg"> <a href="../../Proiect.html">Inapoi la Pagina Principala</a> </th>
+		 </tr>
+	  </thead>
+   </table>
+   <br>
+   
+   <h1 class="titlu_pag_sec"> <span style="color: brown;">Chess</span> <span style="color: white;">For</span> <span style="color: brown;">Us</span> - Despre Mine</h1> <br> <br>
+   <p class="paragraf">Hey! Ma bucur ca ai ajuns aici! Numele meu este Mocanu Marian Valentin, sunt student la Facultatea de Stiinte, domeniul Informatica si sunt un baiat obisnuit, interesat de tehnologie si jocuri video.</p>
+   <br>
+   <p class="paragraf">Acesta este un proiect realizat in totalitate de mine, in care am creat un site web static (adica am creat doar partea de frontend, fara backend) cu tematica unui site de sah pentru oricine, care contine fiecare detaliu important despre acest joc minunat.</p>
+   <br>
+   <p class="paragraf">Experienta mea cu tot ce tine de HTML, CSS si JavaScript a fost una foarte placuta. Mi-a placut faptul ca putem sa ne creem propriile pagini web si ca avem libertatea de a-l personaliza dupa bunul plac. Numai lipsa de imaginatie iti este un obstacol in a realiza orice ti-ai dori.</p>
+   <br>
+   <p class="paragraf">Daca doriti sa ma contactati, am sa las cateva adrese de social media si email pentru dumneavoastra:</p>
+   <p class="paragraf">Email: <a class="link" href="mailto:marianvalentin.mocanu@ulbsibiu.ro">marianvalentin.mocanu@ulbsibiu.ro</a> </p>
+   <p class="paragraf">Facebook: <a class="link" href="https://www.facebook.com/profile.php?id=100009612199437">Valentin Mocanu</a> </p>
+   <br>
+   <!-- elemente animatie text -->
+   <p align="center" class="text_animat">Va multumesc pentru timpul acordat! O zi frumoasa in continuare sa aveti! :D
+   <br><br>
+   
+   <!-- elemente animatie imagine -->
+   <p> <img class="imagine_animata" src="../imagini/cats.jpg"> </p>
+   <br> <br> <br>
+   
+   <!-- control text area -->
+   <p class="paragraf"><u>Daca doriti sa imi lasati un feedback:</u></p>
+   <form action="/submit" method="POST">
+      <label for="comentariu">Feedback-ul tau:</label><br>
+      <textarea id="comentariu" name="comentariu" rows="6" cols="50">
+      </textarea><br><br>
+     <input type="submit" value="Trimite">
+   </form>
+   <br><br>
+   
+   <!-- control file -->
+   <p class="paragraf"><u>Daca doriti sa imi lasati un GIF cu pisici:</u></p>
+   <form action="/submit" method="POST">
+       <label for="fisier">Alege un fisier de incarcat:</label><br>
+       <input type="file" name="fisier" id="fisier"><br><br>
+       <input type="submit" value="Incarca fisier">
+   </form>
+   <br><br><br><br>
+
+   <p class="link_pag_sus_centru"><a class="link" href="#sectiunea1">Inapoi la inceputul paginii</a></p>
+   </div>
+</body>
+</html>
