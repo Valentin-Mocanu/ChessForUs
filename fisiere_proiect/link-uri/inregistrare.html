@@ -6,23 +6,23 @@
    <title>ChessForUs.ro - Inregistrare</title>
    <link rel="stylesheet" type="text/css" href="../stiluri.css" />
 </head>
-<body class="body_log_reg">
+<body class="body_login_register">
    <h1 align="center">Inregistrare</h1>
    
    <!-- imagine fixa (sta intr-o anumita pozitie chiar daca se deruleaza pagina in sus sau in jos) -->
-   <p align="left"> <img class="img_log_reg" src="../imagini/imagine2.jpg"> </p>
+   <p align="left"> <img class="imagine_login_register" src="../imagini/imagine2.jpg"> </p>
    
-   <form class="form_log_reg" action="/submit" method="POST">
+   <form class="formular_login_register" action="/submit" method="POST">
    
-      <label class="label_log_reg" for="name">Nume:</label>
-	  <input class="input_log_reg" type="text" id="name" name="first_name" placeholder="De ex: Vasile" required>
+      <label class="label_login_register" for="name">Nume:</label>
+	  <input class="input_login_register" type="text" id="name" name="first_name" placeholder="De ex: Vasile" required>
 	  <br> <br>
 	  
-	  <label class="label_log_reg" for="name">Prenume:</label>
-	  <input class="input_log_reg" type="text" id="name" name="second_name" placeholder="De ex: Mihai" required>
+	  <label class="label_login_register" for="name">Prenume:</label>
+	  <input class="input_login_register" type="text" id="name" name="second_name" placeholder="De ex: Mihai" required>
 	  <br> <br>
 	  
-	  <label class="label_log_reg" for="name">Gen:</label>
+	  <label class="label_login_register" for="name">Gen:</label>
 	  <!-- butoane radio -->
 	  <label class="radio_label">
 	     <input type="radio" name="a" />Barbat
@@ -43,29 +43,26 @@
 	  <br> <br>
 		
 	  
-	  <label class="label_log_reg" for="email">Email:</label>
-	  <input class="input_log_reg" type="email" id="email" name="email" placeholder="Adresa de email pe care o folositi" required>
+	  <label class="label_login_register" for="email">Email:</label>
+	  <input class="input_login_register" type="email" id="email" name="email" placeholder="Adresa de email pe care o folositi" required>
 	  <br> <br>
 	  
-	  <label class="label_log_reg" for="password">Parola:</label>
-	  <input class="input_log_reg" type="password" id="password" name="password" placeholder="O parola puternica, dar usor de retinut" required>
+	  <label class="label_login_register" for="password">Parola:</label>
+	  <input class="input_login_register" type="password" id="password" name="password" placeholder="O parola puternica, dar usor de retinut" required>
 	  <br> <br>
 	  
 	  <!-- checkbox-uri -->
-	  <div class="checkbox_label">
 	  <label> <input type="checkbox" name="b" />Am acceptat <a class="link" href="termeni_si_conditii.html">Termenii si Conditiile</a> </label>   
 	  <br>
 	  <label> <input type="checkbox" name="c" />Sunt de acord sa imi creez acest cont pe platforma dvs.</label>
-	  </div>
 	  <br> <br>
 	  
 	  <!-- buton de resetare -->
-	  <button type="reset">
-         <img src="../imagini/imagine23.png" alt="Resetare" style="width: 50px; height: 50px;">
+	  <button class="buton_reset" type="reset">
       </button><br><br>
 	  
 	  <!-- buton de submit -->
-	  <button class="button_log_reg" type="submit">Creaza-mi contul</button>
+	  <button class="buton_login_register" type="submit">Creaza-mi contul</button>
    </form>
    
    <p align="center">Daca ai un cont deja creat, poti apasa <a class="link" href="logare.html">aici</a> ca sa te loghezi.</p>

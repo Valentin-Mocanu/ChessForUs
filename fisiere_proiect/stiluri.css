@@ -1,13 +1,51 @@
-.titlu_pag_prin { /* titlu pagina principala */
+/* --> Stilizare pentru pagina principala <--- */
+.titlu_pagina_principala {
    font-family: Showcard Gothic;
    font-size: 50px;
    text-align: center;}
+
+.tabel_pagina_principala {
+   width: 100%;
+   height: 50px;
+   border-collapse: collapse;
+   background-color:#f2f2f2;}
    
-.titlu_pag_sec { /* titlu pagini secundare */
-   font-family: Showcard Gothic;
-   font-size: 40px;
+.th_pagina_principala { /* th (tabel header) pentru tabel pagina principala (celula aia mare si lunga) */
+   border: 2px solid black;
+   border-collapse: collapse;
+   border-color: red;
+   padding: 3px;
+   text-align: center;
+   background-image: url('imagini/imagine18.jpg');}
+.th_pagina_principala:hover {
+   background-color: #d1e0e0;}
+   
+.td_pagina_principala { /* td (table data) pentru tabel pagina principala */
+   border: 2px solid black;
+   border-collapse: collapse;
+   border-color: blue;
+   padding: 3px;
    text-align: center;}
+.td_pagina_principala:hover {
+   background-color: #d1e0e0;}
    
+.imagine_td_pagina_principala { /* casuta cu imagine la tabelul din pagina principala */
+   border: 2px solid black;
+   border-collapse: collapse;
+   border-color: gold;
+   padding: 3px;
+   text-align: center;
+   background-image: url('imagini/imagine17.png');
+   background-size: cover;}
+
+.imagine_pagina_principala {
+   border: 2px solid black;
+   border-radius: 8px;
+   width: 500px;
+   height: 300px;}
+   
+
+/* ---> Stilizare pentru paginile secundare (mai include si elemente folosite in restul paginilor - universale) <--- */
 .subtitlu1 {
    font-family: Algerian; 
    font-size: 25px;
@@ -19,7 +57,7 @@
    color: darkgreen; 
    font-size: 20px;}
    
-h2, h3 { /* astea doua sunt special pentru pagina "Despre Sah" (link1) ca sa ma ajute la link-uri interne */
+.subtitlu3 { /* folosit la paginile "Despre Sah" (pag1 si 2) */
    text-indent: 35px;
    font-size: 24px;}
    
@@ -41,80 +79,10 @@ h2, h3 { /* astea doua sunt special pentru pagina "Despre Sah" (link1) ca sa ma 
    border-radius: 8px; /* colturi rotunjite */
    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);} /* umbra fundal2 */
 
-.tabel_pag_prin { /* tabel pagina principala */
-   width: 100%;
-   height: 50px;
-   border-collapse: collapse;
-   background-color:#f2f2f2;}
-   
-.th_pag_prin { /* th pentru tabel pagina principala (celula aia mare si lunga) */
-   border: 2px solid black;
-   border-collapse: collapse;
-   border-color: red;
-   padding: 3px;
-   text-align: center;
-   background-image: url('imagini/imagine18.jpg');}
-.th_pag_prin:hover {
-   background-color: #d1e0e0;}
-   
-.td_pag_prin { /* td pentru tabel pagina principala */
-   border: 2px solid black;
-   border-collapse: collapse;
-   border-color: blue;
-   padding: 3px;
+.titlu_pagina_secundara {
+   font-family: Showcard Gothic;
+   font-size: 40px;
    text-align: center;}
-.td_pag_prin:hover {
-   background-color: #d1e0e0;}
-   
-.td_pag_prin_img { /* casuta cu imagine la tabelul din pagina principala */
-   border: 2px solid black;
-   border-collapse: collapse;
-   border-color: gold;
-   padding: 3px;
-   text-align: center;
-   background-image: url('imagini/imagine17.png');
-   background-size: cover;}
-
-.img_pag_prin { /*imagine pagina principala */
-   border: 2px solid black;
-   border-radius: 8px;
-   width: 500px;
-   height: 300px;}
-   
-.img_link1 {
-   border: 2px solid black;
-   border-radius: 8px;
-   width: 200px;
-   height: 250px;}
-.img_link1:hover {
-   transform: scale(1.1); /* mărește imaginea cu 10% atunci când mouse-ul este deasupra ei */
-   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);} /* efectul de evidentiere a imaginii cand mouse-ul este deasupra ei */
-   
-.img_link4 {
-   border: 2px solid black;
-   border-radius: 8px;
-   width: 200px;
-   height: 250px;}
-   
-.img_link5 {
-   margin-left: 54px;
-   border: 2px solid black;
-   border-radius: 8px;
-   width: 100px;
-   height: 80px;}
-   
-.img_log_reg {
-   border: 2px solid black;
-   border-radius: 8px;
-   width: 25px;
-   height: 25px;
-   position: fixed;}
-
-.div_ajutator_link1 { /* un mic ajutator pentru tag-ul div */
-   text-indent: 35px;
-   text-decoration: underline;
-   font-style: italic;
-   font-family: Segoe UI;} 
 
 .tabel_buton_inapoi { /* butonul care te duce la pagina principala */
    width: 30%;
@@ -131,9 +99,58 @@ h2, h3 { /* astea doua sunt special pentru pagina "Despre Sah" (link1) ca sa ma 
 .th_buton_inapoi:hover {
    background-color: #d1e0e0;}
    
-.link_pag_sus_centru {text-align: center;} /*link-ul care te trimite la inceputul paginii */
-.link_pag_sus_stanga {text-align: left;} /*link-ul care te trimite la inceputul paginii */
-.link_pag_sus_dreapta {text-align: right;} /*link-ul care te trimite la inceputul paginii */
+.imagine_mutare_piesa_sah1 {
+   border: 2px solid black;
+   border-radius: 8px;
+   width: 200px;
+   height: 250px;}
+.imagine_mutare_piesa_sah1:hover {
+   transform: scale(1.1); /* mareste imaginea cu 10% atunci cand mouse-ul este deasupra ei */
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);} /* efectul de evidentiere a imaginii cand mouse-ul este deasupra ei */
+   
+.imagine_mutare_piesa_sah2 {
+   border: 2px solid black;
+   border-radius: 8px;
+   width: 200px;
+   height: 250px;}
+   
+.imagine_competitie_esports {
+   margin-left: 54px;
+   border: 2px solid black;
+   border-radius: 8px;
+   width: 100px;
+   height: 80px;}
+
+.titlu_competitie_esports {
+   font-family: Arial Rounded MT Bold;
+   margin-left: 25px;
+   font-size: 20px;}
+
+.div_ajutator { /* un mic ajutator pentru tag-ul div la pagina "Despre Sah" */
+   text-indent: 35px;
+   text-decoration: underline;
+   font-style: italic;
+   font-family: Segoe UI;} 
+
+.lista1 { /* listele 1-4 sunt folosite la pagina "Istoria Sahului" */
+   list-style-image: url('imagini/imagine13.png');
+   padding-left: 20px;}
+
+.lista2 {
+   list-style-image: url('imagini/imagine14.jpg');
+   padding-left: 20px;}
+
+.lista3 {
+   list-style-image: url('imagini/imagine15.jpg');
+   padding-left: 20px;}
+
+.lista4 {
+   list-style-image: url('imagini/imagine16.jpg');
+   padding-left: 20px;}
+   
+.link_pagina_sus_centru {text-align: center;} /* aceste 3 link-uri (pozitionate diferit pe pagina respectiva) te trimit la inceputul paginii */
+.link_pagina_sus_stanga {text-align: left;}
+.link_pagina_sus_dreapta {text-align: right;}
 
 .link { /* stilizare pentru link-uri */
    color: blue;
@@ -150,32 +167,34 @@ h2, h3 { /* astea doua sunt special pentru pagina "Despre Sah" (link1) ca sa ma 
 
 blockquote {font-style: italic;}
 
-.form_log_reg {max-width: 600px; /* formular pagina login/register */
+
+/* ---> Stilizare pentru paginile Login si Register <--- */
+.formular_login_register {max-width: 600px; /* formular pentru pagina login/register */
    margin: 0 auto;
    padding: 20px;
    border: 1px solid #ddd;
    border-radius: 8px;
    background-color: #f9f9f9;}
    
-.label_log_reg {display: block; /* label pagina login/register */
+.label_login_register {display: block; /* label pentru pagina login/register */
    margin-bottom: 8px;
    font-weight: bold;}
    
-.input_log_reg, .select_log_reg {width: 100%; /* input text si select pentru pagina login/register */
+.input_login_register, .select_login_register {width: 100%; /* input text si select pentru pagina login/register */
    padding: 8px;
    margin-bottom: 12px;
    border: 1px solid #ccc;
    border-radius: 4px;}
    
-.button_log_reg {background-color: #4CAF50; /*buton trimitere formular pagina login/register */
+.buton_login_register {background-color: #4CAF50; /*buton trimitere formular pentru pagina login/register */
    color: white;
    padding: 10px 20px;
    border: none;
    border-radius: 4px;
    cursor: pointer;}  
-.button_log_reg:hover {  background-color: #45a049;}
+.buton_login_register:hover {  background-color: #45a049;}
 
-.body_log_reg { /* fundal pagina login/register */
+.body_login_register { /* fundal pentru pagina login/register */
    margin: 0;
    height: 100vh;
    background-image: url("imagini/imagine6.jpg");
@@ -183,40 +202,26 @@ blockquote {font-style: italic;}
    background-position: center;
    background-repeat: no-repeat;}
    
-.radio_label { /* stilizarea butoanelor radio folosind selector clasa */
+.radio_label { /* butoanele radio (stilizarea folosind selectorul clasa) */
    display: inline-flex;
    align-items: center;
    margin-right: 15px;}
    
-#termeni_si_conditii { /* stilizarea butoanelor radio folosind selector id */
+#termeni_si_conditii { /* butoanele radio (stilizarea folosind selectorul id)*/
    display: inline-flex;
    align-items: center;
    margin-right: 15px;}
-
-.lista1_link2 { /* formatarea listei cu o imagine plus extra-indentare la fiecare element din lista */
-   list-style-image: url('imagini/imagine13.png');
-   padding-left: 20px;}
-
-.lista2_link2 {
-   list-style-image: url('imagini/imagine14.jpg');
-   padding-left: 20px;}
-
-.lista3_link2 {
-   list-style-image: url('imagini/imagine15.jpg');
-   padding-left: 20px;}
-
-.lista4_link2 {
-   list-style-image: url('imagini/imagine16.jpg');
-   padding-left: 20px;}
 
 .buton_reset {
-   background-image: url('imagini/imagine17.png');
+   background-image: url('imagini/imagine21.png');
+   border: 1px solid black;
    background-size: cover;
-   width: 100px;
+   width: 50px;
    height: 50px;}
-   
-.text_link5 {
-   font-family: Arial Rounded MT Bold;
-   margin-left: 25px;
-   font-size: 20px;}
-   
+
+.imagine_login_register { /* imagine fixa (stanga sus) */
+   border: 2px solid black;
+   border-radius: 8px;
+   width: 25px;
+   height: 25px;
+   position: fixed;}
