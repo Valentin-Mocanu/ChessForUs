@@ -1,71 +1,78 @@
 <!DOCTYPE html>
 <html lang="ro">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>ChessForUs.ro - Înregistrare</title>
-   <link rel="stylesheet" type="text/css" href="../stiluri.css" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ChessForUs.ro - Înregistrare</title>
+	<link rel="stylesheet" type="text/css" href="../stiluri.css" />
 </head>
+
 <body class="body_login_register">
-   <h1 align="center">Înregistrare</h1>
-   
-   <!-- imagine fixa (sta intr-o anumita pozitie chiar daca se deruleaza pagina in sus sau in jos) -->
-   <p align="left"> <img class="imagine_login_register" src="../imagini/imagine2.jpg" alt="Imagine Logo site"> </p>
-   
-   <form class="formular_login_register" action="/submit" method="POST">
-   
-      <label class="label_login_register" for="first_name">Nume:</label>
-	  <input class="input_login_register" type="text" id="first_name" name="first_name" placeholder="De ex: Vasile" required>
-	  <br> <br>
-	  
-	  <label class="label_login_register" for="second_name">Prenume:</label>
-	  <input class="input_login_register" type="text" id="second_name" name="second_name" placeholder="De ex: Mihai" required>
-	  <br> <br>
-	  
-	  <label class="label_login_register">Gen:</label>
-	  <!-- butoane radio -->
-	  <label class="radio_label">
-	     <input type="radio" id="barbat" name="gen" value="barbat" />Bărbat
-	  </label>
-      <label class="radio_label">
-	     <input type="radio" id="femeie" name="gen" value="femeie" />Femeie
-	  </label>
-	  <br> <br>
-	  
-	  <label for="animal">Care este animalul dvs preferat:</label>
-	  <!-- lista derulanta -->
-      <select id="animal" name="animal">
-         <option value="caine">Câine</option>
-         <option value="pisica">Pisică</option>
-         <option value="iepure">Iepure</option>
-         <option value="alt_animal">Alt animal</option>
-      </select>
-	  <br> <br>
-		
-	  
-	  <label class="label_login_register" for="email">Email:</label>
-	  <input class="input_login_register" type="email" id="email" name="email" placeholder="Adresa de email pe care o folosiți" required>
-	  <br> <br>
-	  
-	  <label class="label_login_register" for="password">Parolă:</label>
-	  <input class="input_login_register" type="password" id="password" name="password" placeholder="O parolă puternică, dar ușor de reținut" required>
-	  <br> <br>
-	  
-	  <!-- checkbox-uri -->
-	  <label> <input type="checkbox" name="b" />Am acceptat <a class="link" href="termeni_si_conditii.html">Termenii si Condițiile</a> </label>   
-	  <br>
-	  <label> <input type="checkbox" name="c" />Sunt de acord să îmi creez acest cont pe platforma dvs.</label>
-	  <br> <br>
-	  
-	  <!-- buton de resetare -->
-	  <button class="buton_reset" type="reset">
-      </button><br><br>
-	  
-	  <!-- buton de submit -->
-	  <button class="buton_login_register" type="submit">Crează-mi contul</button>
-   </form>
-   
-   <p align="center">Dacă ai un cont deja creat, poți apăsa <a class="link" href="logare.html">aici</a> ca să te loghezi.</p>
-   <br> <br>
+	<h1 align="center">Înregistrare</h1>
+
+	<!-- imagine fixa (sta intr-o anumita pozitie chiar daca se deruleaza pagina in sus sau in jos) -->
+	<p align="left"> <img class="imagine_login_register" src="../imagini/imagine2.jpg" alt="Imagine Logo site"> </p>
+
+	<form class="formular_login_register" action="/submit" method="POST">
+
+		<label class="label_login_register" for="first_name">Nume:</label>
+		<input class="input_login_register" type="text" id="first_name" name="first_name" placeholder="De ex: Vasile"
+			required>
+		<br> <br>
+
+		<label class="label_login_register" for="second_name">Prenume:</label>
+		<input class="input_login_register" type="text" id="second_name" name="second_name" placeholder="De ex: Mihai"
+			required>
+		<br> <br>
+
+		<label class="label_login_register">Gen:</label>
+		<!-- butoane radio -->
+		<label class="radio_label">
+			<input type="radio" id="barbat" name="gen" value="barbat" />Bărbat
+		</label>
+		<label class="radio_label">
+			<input type="radio" id="femeie" name="gen" value="femeie" />Femeie
+		</label>
+		<br> <br>
+
+		<label for="animal">Care este animalul dvs preferat:</label>
+		<!-- lista derulanta -->
+		<select id="animal" name="animal">
+			<option value="caine">Câine</option>
+			<option value="pisica">Pisică</option>
+			<option value="iepure">Iepure</option>
+			<option value="alt_animal">Alt animal</option>
+		</select>
+		<br> <br>
+
+
+		<label class="label_login_register" for="email">Email:</label>
+		<input class="input_login_register" type="email" id="email" name="email"
+			placeholder="Adresa de email pe care o folosiți" required>
+		<br> <br>
+
+		<label class="label_login_register" for="password">Parolă:</label>
+		<input class="input_login_register" type="password" id="password" name="password"
+			placeholder="O parolă puternică, dar ușor de reținut" required>
+		<br> <br>
+
+		<!-- checkbox-uri -->
+		<label> <input type="checkbox" name="b" />Am acceptat <a class="link" href="termeni_si_conditii.html">Termenii si Condițiile</a> </label>
+		<br>
+		<label> <input type="checkbox" name="c" />Sunt de acord să îmi creez acest cont pe platforma dvs.</label>
+		<br> <br>
+
+		<!-- buton de resetare -->
+		<button class="buton_reset" type="reset">
+		</button><br><br>
+
+		<!-- buton de submit -->
+		<button class="buton_login_register" type="submit">Crează-mi contul</button>
+	</form>
+
+	<p align="center">Dacă ai un cont deja creat, poți apăsa <a class="link" href="logare.html">aici</a> ca să te loghezi.</p>
+	<br> <br>
 </body>
+
 </html>
